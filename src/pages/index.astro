@@ -1,0 +1,1384 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+<link type="text/css" rel="stylesheet" href="https://collnet2025.mailus.workers.dev/home-menu-styles.css" as="style">
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+      <meta name="application-name" content="ZohoBackstage">
+      <meta name="description" content="">
+      <meta name="mobile-web-app-capable" content="yes">
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <meta name="apple-mobile-web-app-title" content="COLLNET Meeting 2025">
+      <meta name="theme-color" content="#5C6BC0">
+      <meta name="msapplication-navbutton-color" content="#5C6BC0">
+      <meta name="apple-mobile-web-app-status-bar-style" content="default">
+      <link rel="canonical" href="https://sgate.zohobackstage.in/COLLNET2025">
+      <link rel="alternate" hreflang="en" href="https://sgate.zohobackstage.in/COLLNET2025#/?lang=en">
+      <meta name="keywords" content=",COLLNET2025,COLLNET&amp;#x20;Meeting&amp;#x20;2025,&amp;#x20;">
+      <meta name="twitter:title" content="COLLNET Meeting 2025">
+      <meta name="twitter:image" content="https://sgate.zohobackstage.in/thumbnail/COLLNET2025?_=1744037145703">
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:description" content="">
+      <meta property="og:type" content="website">
+      <meta property="og:url" content="https://sgate.zohobackstage.in/COLLNET2025">
+      <meta property="og:title" content="COLLNET Meeting 2025">
+      <meta property="og:description" content="">
+      <meta name="image" property="og:image" content="https://sgate.zohobackstage.in/thumbnail/COLLNET2025?_=1744037145703">
+      <meta property="og:image:width" content="1440">
+      <meta property="og:image:height" content="900">
+      <meta property="og:image:type" content="image/png">
+      <link rel="shortcut icon" type="image/x-icon" href="https://static.zohocdn.com/backstage/v1.0/fav-479b4ad7723adad699816a5ea94b947b.png">
+      <link rel="manifest" href="https://sgate.zohobackstage.in/COLLNET2025/manifest.json?_=1744037145703">
+      <link rel="icon" href="https://static.zohocdn.com/backstage/v1.0/fav-479b4ad7723adad699816a5ea94b947b.png">
+      <link rel="apple-touch-icon" href="https://static.zohocdn.com/backstage/v1.0/fav-479b4ad7723adad699816a5ea94b947b.png">
+      <link rel="apple-touch-startup-image" href="https://static.zohocdn.com/backstage/v1.0/fav-479b4ad7723adad699816a5ea94b947b.png">
+      <title>
+         COLLNET Meeting 2025 :: Home
+      </title>
+      <link rel="alternate" type="application/json+oembed" href="https://sgate.zohobackstage.in/public/oembed?url=https%3A%2F%2Fsgate.zohobackstage.in%2FCOLLNET2025">
+      <link rel="preconnect" href="https://static.zohocdn.com/backstage/v1.0" crossorigin="">
+      <link rel="preconnect" href="https://static.zohocdn.com/webfonts" crossorigin="">
+      <link rel="preload" href="https://static.zohocdn.com/backstage/v1.0/javascript/security.min-3a8c70650b6ac1b2ed24ceedff5acc55.js" as="script">
+      <link rel="preload" href="https://static.zohocdn.com/backstage/v1.0/community/assets/vendor-c7d439f1306986cae40a88b1d01ef9f7.js" as="script">
+      <link rel="preload" href="https://static.zohocdn.com/backstage/v1.0/community/assets/community-248ced29812061936960e8d22546cfce.js" as="script">
+	  
+	  <link rel="stylesheet" href="https://static.zohocdn.com/backstage/v1.0/styles/bs-theme-fb933f6f3638eb86f84806248820801d.css" as="style">
+      <link rel="stylesheet" href="https://static.zohocdn.com/backstage/v1.0/styles/bs-theme-70aaec8b8d2c7cb787a2137b7ceb2d66.css" as="style">
+      <link rel="stylesheet" href="https://static.zohocdn.com/backstage/v1.0/community/assets/vendor-5056f81fb65cc15c706f9c85d6d2b35a.css" as="style">
+      <link rel="stylesheet" href="https://static.zohocdn.com/backstage/v1.0/community/assets/chunk.108.3cf3ba1ed995a91b3ae1.css">
+      <link rel="stylesheet" href="https://static.zohocdn.com/backstage/v1.0/community/assets/community-925ef3f29461fe07331ef0fd3b28dd24.css" as="style">
+      <link type="text/css" rel="stylesheet" href="https://static.zohocdn.com/backstage/v1.0/styles/guls-style-aa388f7f5ad2c7987129c638fbd7bc84.css" as="style">
+      <style class="themeVariables">.bs-website:not(.theme-view){--font-name:roboto;--regular-font:robotoregular;--medium-font:robotomedium;--light-font:robotolight;--bold-font:robotobold;--min-size :11;--h1-font:56px;--h2-font:40px;--h3-font:36px;--h4-font:24px;--h5-font:18px;--h6-font:16px;--default-font:16px;--small-font:15px;--tiny-font:13px;--mini-font:11px;--section-title-case:none;--title-text-color:#ffffff;--body-text-color:#000000;--secondary-text-color:#777777;--link-color:#3577BC;--border-color:#dadbdd;--dark-border-color:#000000;--light-border-color:#eeeeee;--menu-bg:#ffffff;--menu-item-color:#000000;--menu-item-active-color:#5C6BC0;--grey-bg:#f1f1f1;--light-grey-bg:#f5f5f5;--lightest-grey-bg:#f9f9f9;--primary-button-border-color:transparent;--primary-button-text-color:#ffffff;--primary-button-bg-color:#5C6BC0;--body-bg:#ffffff;--preview-bg-color:#5C6BC0;--banner-image: url(https://static.zohocdn.com/backstage/v1.0/themes/barfi-bg-75eba28eab76aa2f2767518cc57e8daa.png);--banner-bg-color:#22272A;--banner-mobile-bg: url(https://static.zohocdn.com/backstage/v1.0/themes/barfi-mobile-bg-54b32880f7aa27363b7a85fdef6928f4.png);--banner-overlay-opacity:0.7;--banner-overlay-bg-color:#161A1C;--banner-title-text-color:#ffffff;--banner-text-color:#ffffff;--banner-secondary-text-color:#ffffff;--banner-link-color:#ffffff;--banner-border-color:#ffffff;--banner-dark-border-color:#ffffff;--banner-light-border-color:#ffffff;--inner-banner-image: url(https://static.zohocdn.com/backstage/v1.0/themes/barfi-inner-banner-dd56ae7ad6456192eb252ececb161dfa.png);--inner-banner-bg-color:#22272A;--inner-banner-mobile-bg: url(https://static.zohocdn.com/backstage/v1.0/themes/barfi-mobile-inner-bg-85feb38c0ec00126bacceb450b0a5845.png);--inner-banner-overlay-opacity:0.7; --inner-banner-overlay-bg-color:#161A1C;--inner-banner-title-text-color:#ffffff;--inner-banner-text-color:#ffffff;--inner-banner-secondary-text-color:#ffffff;--inner-banner-link-color:#ffffff;--inner-banner-border-color:#ffffff;--inner-banner-dark-border-color:#ffffff;--inner-banner-light-border-color:#ffffff;--section-bg-color:#ffffff;--section-title-text-color:#5C6BC0;--section-text-color:#000000;--section-secondary-text-color:#767676;--section-link-color:#3577BC;--section-border-color:#dadbdd;--section-dark-border-color:#000000;--secion-light-border-color:#eeeeee;--alternate-section-bg-color:#F7F8F9;--alternate-section-title-text-color:#5C6BC0;--alternate-section-text-color:#000000;--alternate-section-secondary-text-color:#767676;--alternate-section-link-color:#3577BC;--alternate-section-border-color:#dadbdd;--alternate-dark-border-color:#000000;--alternate-light-border-color:#eeeeee;}</style>
+      <style class="themeVariations">.bs-variation:not(.theme-view){}</style>
+      <script src="https://maps.googleapis.com/maps/api/js?libraries=places&amp;key=AIzaSyBiyf0K2SL3k9iXh7cKB4mB7eo3g4jd39k"></script><script src="https://maps.googleapis.com/maps/api/js?libraries=places&amp;key=AIzaSyBiyf0K2SL3k9iXh7cKB4mB7eo3g4jd39k"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/60/7b/common.js" nonce="20+tTDMQUtOwTLIUt/m1gg=="></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/60/7b/util.js" nonce="20+tTDMQUtOwTLIUt/m1gg=="></script>
+  
+</head>
+   <body class="bs-website bs-variation ember-application" style="--body-height: 386px; --bs-main-menu-height: 72px; --bs-inner-banner-height: 0px;">
+      <h1 style="display:none;">COLLNET Meeting 2025</h1>
+      <script nonce="20+tTDMQUtOwTLIUt/m1gg==" src="https://static.zohocdn.com/backstage/v1.0/community/assets/vendor-c7d439f1306986cae40a88b1d01ef9f7.js"></script><script src="https://static.zohocdn.com/backstage/v1.0/community/assets/chunk.108.3cf3ba1ed995a91b3ae1.js"></script><script src="https://static.zohocdn.com/backstage/v1.0/community/assets/chunk.524.abee30cc9598a8c0f713.js"></script>
+      <script nonce="20+tTDMQUtOwTLIUt/m1gg==" type="text/javascript" src="https://js.zohocdn.com/ichat/js/Mar_13_2025_10182154_wmsliteapi.js"></script><script nonce="20+tTDMQUtOwTLIUt/m1gg==" type="text/javascript" src="https://static.zohocdn.com/backstage/v1.0/javascript/security.min-3a8c70650b6ac1b2ed24ceedff5acc55.js"></script><script nonce="20+tTDMQUtOwTLIUt/m1gg==" src="https://static.zohocdn.com/backstage/v1.0/community/assets/community-248ced29812061936960e8d22546cfce.js"></script><span></span>
+      <div>
+         	
+         <div dir="ltr" id="ember4" class="cm_root mappv2 ember-view">
+            <span></span>
+            	
+            <style>
+               @font-face {
+               font-family: 'robotoregular';
+               font-style: normal;
+               src: url('https://static.zohocdn.com/webfonts/robotoregular/font.eot');
+               src: url('https://static.zohocdn.com/webfonts/robotoregular/font.eot?#iefix') format("eot"),
+               url('https://static.zohocdn.com/webfonts/robotoregular/font.woff2') format('woff2'),
+               url('https://static.zohocdn.com/webfonts/robotoregular/font.woff') format('woff'),
+               url('https://static.zohocdn.com/webfonts/robotoregular/font.ttf') format('truetype')}
+               @font-face {
+               font-family: 'robotomedium';
+               font-style: normal;
+               src: url('https://static.zohocdn.com/webfonts/robotomedium/font.eot');
+               src: url('https://static.zohocdn.com/webfonts/robotomedium/font.eot?#iefix') format("eot"),
+               url('https://static.zohocdn.com/webfonts/robotomedium/font.woff2') format('woff2'),
+               url('https://static.zohocdn.com/webfonts/robotomedium/font.woff') format('woff'),
+               url('https://static.zohocdn.com/webfonts/robotomedium/font.ttf') format('truetype')}
+               @font-face {
+               font-family: 'robotobold';
+               font-style: normal;
+               src: url('https://static.zohocdn.com/webfonts/robotobold/font.eot');
+               src: url('https://static.zohocdn.com/webfonts/robotobold/font.eot?#iefix') format("eot"),
+               url('https://static.zohocdn.com/webfonts/robotobold/font.woff2') format('woff2'),
+               url('https://static.zohocdn.com/webfonts/robotobold/font.woff') format('woff'),
+               url('https://static.zohocdn.com/webfonts/robotobold/font.ttf') format('truetype')}
+               @font-face {
+               font-family: 'robotolight';
+               font-style: normal;
+               src: url('https://static.zohocdn.com/webfonts/robotolight/font.eot');
+               src: url('https://static.zohocdn.com/webfonts/robotolight/font.eot?#iefix') format("eot"),
+               url('https://static.zohocdn.com/webfonts/robotolight/font.woff2') format('woff2'),
+               url('https://static.zohocdn.com/webfonts/robotolight/font.woff') format('woff'),
+               url('https://static.zohocdn.com/webfonts/robotolight/font.ttf') format('truetype')}.bs-website:not(.them-view){--font-name:roboto;--regular-font:robotoregular;--medium-font:robotomedium;--light-font:robotolight;--bold-font:robotobold;--min-size :11;}
+            </style>
+			
+			
+               <div class="overlay"></div>
+               <div class="bs-container">
+                  <div class="main-menu nav-active-st1 nav-link-st1">
+                     <div class="left-menu">
+                        <div id="ember6" class="ember-view">
+                           <div id="ember7" class="item logo logo-st1  ember-view">
+                              <div class="logo  bs-image " data-ember-action="" data-ember-action-8="8">
+                                 <img src="logo.gif" alt="COLLNET Meeting 2025-logo" loading="lazy">
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="right-menu top-nav-bar" style="overflow: visible;">
+                        <Header />
+                     </div>
+                     <div class="other-links">
+                        <bs-widget button-group-id="37939000000005751" style="" id="ember28" class="element-settings   bs-btn-wgt default ember-view">
+                           
+                        </bs-widget>
+                     </div>
+                  </div>
+                  <div class="menu-right">
+                     		
+                  </div>
+               </div>
+            </header>
+            
+            <main page-id="37939000000002073" id="ember98" class="community-page-home ember-view">
+               <div class="ui vertical center aligned bs-page-container">
+                  <section id="ember99" class="bs-section multiple-sections community-section-banner ember-view">
+                     <div class="background-layer"></div>
+                     <article class="foreground-layer" role="presentation">
+                        <div id="ember100" class="ember-view">
+                           <div style="" id="ember101" class="carousel bs-carousel-widget dt-style-1 dt-center arr-style-2 ember-view">
+                              <div class="owl-carousel carousel-stretch owl-loaded" data-ride="carousel">
+                                 <div class="owl-stage-outer">
+                                    <div class="owl-stage" style="transition: linear; width: 1349px; transform: translate3d(0px, 0px, 0px);">
+                                       <div class="owl-item active center" style="width: 1349px;">
+                                          <section data-section-id="37939000000002348" id="ember102" class="bs-section main-banner community-section-Slide-1 ember-view">
+                                             <div class="background-layer " style="background:#0155b5;; opacity:1;">
+                                                
+                                             </div>
+                                             <article class="foreground-layer bs-container" role="presentation">
+                                                <div class="banner-widget
+                                                   media-right
+                                                   left-align
+                                                   middle-align
+                                                   layout-medium">
+                                                   <div class="banner-media">
+                                                      <div data-element-id="37939000000002264" id="ember103" class="ember-view">
+                                                         	
+                                                         <div id="ember104" class="ember-view">
+                                                            <div media-id="37939000000002265" id="ember106" class="bs-media-wgt media-settings ember-view">
+                                                               <div class="media-element  " style="">
+                                                                  <div class="media-image ">
+                                                                     <img src="banner-home.png" alt="undefined" class="fluid-image">
+                                                                  </div>
+                                                               </div>
+                                                            </div>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                   <div class="banner-content">
+                                                      <div data-element-id="37939000000002266" id="ember107" class="ember-view">
+                                                         <h1 id="ember108" class="section-head ember-view">
+                                                            COLLNET Meeting 2025
+                                                         </h1>
+                                                         
+                                                      </div>
+                                                      <div data-element-id="37939000000002267" id="ember109" class="ember-view">
+                                                         	
+                                                         <div id="ember110" class="ember-view">
+                                                            <div id="ember112" class="ember-view">
+                                                               <div style="" id="ember113" class="bs-dtl ember-view">
+                                                                  <div class="items medium" date-time-venue-id="37939000000002268">
+                                                                     <div data-a11y="critical" aria-label="Event Date" id="ember114" class="item ember-view">
+                                                                        <div class="add-to-calendar" data-a11y="focus link" popovertarget="ember117" popovertargetaction="toggle" aria-haspopup="true" aria-describedby="ember117" tabindex="0" aria-expanded="false">
+                                                                           <div data-tracker="add_calendar" data-popup-position="bottom center" class="item" data-popup="popup-115" role="button" tabindex="0">
+                                                                              <div style="" id="ember116" class="dtl-icon ember-view" aria-hidden="true">			<i class="theme-icon medium calendar-icon03"></i></div>
+                                                                              <span class="dtl-text pointer">Sep 19 – 21, 2025</span>
+                                                                           </div>
+                                                                           <div role="tooltip" aria-hidden="true" id="ember117" hidden="">
+                                                                              Add to Calendar
+                                                                           </div>
+                                                                           <div popover="" id="ember117" class="uls-tooltip bottom center" style="
+                                                                              position-anchor:--ember117;
+                                                                              --arr-left:105px;
+                                                                              --arr-top:9px
+                                                                              " aria-hidden="true">
+                                                                              <div class="content">
+                                                                                 					
+                                                                                 <div class="body-content">
+                                                                                    Add to Calendar
+                                                                                 </div>
+                                                                                 			
+                                                                              </div>
+                                                                           </div>
+                                                                        </div>
+                                                                     </div>
+                                                                     <div data-a11y="critical" aria-label="Event Time" id="ember118" class="item ember-view">
+                                                                        <div style="" id="ember119" class="dtl-icon ember-view" aria-hidden="true">			<i class="theme-icon medium clock-icon01"></i></div>
+                                                                        <span class="dtl-text">
+                                                                        08:00 AM
+                                                                        </span>
+                                                                     </div>
+                                                                     
+                                                                  </div>
+                                                               </div>
+                                                            </div>
+                                                         </div>
+                                                      </div>
+                                                      <div data-element-id="37939000000002273" id="ember120" class="ember-view">
+                                                         	
+                                                         <div id="ember121" class="ember-view">
+                                                            <div id="ember123" class="ember-view">
+                                                               <div style="" id="ember124" class="bs-dtl ember-view">
+                                                                  <div class="items medium" date-time-venue-id="37939000000002274">
+                                                                     		
+                                                                     <div id="ember125" class="item ember-view">
+                                                                        <div style="" id="ember126" class="dtl-icon ember-view">			<i class="theme-icon medium location-icon02"></i></div>
+                                                                        <a class="dtl-text" href="https://maps.google.com?saddr=current+Location&amp;daddr=Institute%20of%20Economic%20Growth.,%20Hansraj%20College,%20Delhi,%20India" target="_blank">Delhi, Delhi - India</a>
+                                                                     </div>
+                                                                  </div>
+                                                               </div>
+                                                            </div>
+                                                         </div>
+                                                      </div>
+                                                      <div data-element-id="37939000000002278" id="ember127" class="ember-view">
+                                                         	
+                                                         <div id="ember128" class="ember-view">
+                                                            <bs-widget button-group-id="37939000000002279" style="" id="ember130" class="bs-btn-wgt default ember-view">
+                                                               <div button-id="37939000000002280" id="ember131" class="child-btns buyTicketBtn ember-view">
+                                                                  <div id="ember132" class="ember-view">
+                                                                     
+                                                                  </div>
+                                                               </div>
+                                                            </bs-widget>
+                                                         </div>
+                                                      </div>
+                                                      <div data-element-id="37939000000002281" id="ember133" class="ember-view">
+                                                         	
+                                                         <div id="ember134" class="ember-view">
+                                                            <bs-widget event-count-down-id="37939000000002282" id="ember136" class="bs-countdown-wgt ember-view">
+                                                               <div aria-label="Event Countdown" id="ember137" class="ember-view">
+                                                                  
+                                                                 <!---->
+                                                                 <div style="--bs-countdown-border-width: 1px;" id="ember138" class="bs-countdown style-1  small  ember-view">
+                                                                  <span class="hidden"></span>
+                                                                  <!---->	
+                                                                  <div class="item" aria-label="163 Days">
+                                                                     <div class="values">
+                                                                        <span style="font-size: 23px;font-weight: 600;" id="days">00</span>
+                                                                     </div>
+                                                                     <div class="label" aria-hidden="true">
+                                                                        Days
+                                                                     </div>
+                                                                  </div>
+                                                                  <!---->	
+                                                                  <div class="item" aria-label="17 Hours">
+                                                                     <div class="values">
+                                                                        <span style="font-size: 23px;font-weight: 600;" id="hours">00</span>
+                                                                     </div>
+                                                                     <div class="label" aria-hidden="true">
+                                                                        Hours
+                                                                     </div>
+                                                                  </div>
+                                                                  <!---->	
+                                                                  <div class="item" aria-label="37 Minutes">
+                                                                     <div class="values">
+                                                                        <span  style="font-size: 23px;font-weight: 600;" id="minutes">00</span>
+                                                                     </div>
+                                                                     <div class="label" aria-hidden="true">
+                                                                        Minutes
+                                                                     </div>
+                                                                  </div>
+                                                                  <!---->	
+                                                                  <div class="item" aria-label="58 Seconds">
+                                                                     <div class="values">
+                                                                        <span style="font-size: 23px;font-weight: 600;" id="seconds">00</span>
+                                                                     </div>
+                                                                     <div class="label" aria-hidden="true">
+                                                                        Seconds
+                                                                     </div>
+                                                                  </div>
+                                                               </div>
+                                                               <!---->  
+                                                                  
+                                                               </div>
+                                                            </bs-widget>
+                                                         </div>
+                                                      </div>
+                                                      		
+                                                   </div>
+                                                </div>
+                                             </article>
+                                          </section>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span class="left carousel-control"><i class="new-icon previous"></i></span></button><button type="button" role="presentation" class="owl-next"><span class="right carousel-control"><i class="new-icon next"></i></span></button></div>
+                                 <div class="owl-dots disabled"></div>
+                              </div>
+                           </div>
+                        </div>
+                     </article>
+                  </section>
+                  <section data-section-id="37939000000002257" id="ember139" class="bs-section default community-section-description primary-button ember-view">
+                     <div class="background-layer " style="">
+                        
+                     </div>
+                     <article role="presentation" id="ember140" class="foreground-layer bs-container ember-view">
+                        <div data-element-id="37939000000002104" id="ember141" class="ember-view">
+                           <h3 text-id="37939000000002106" id="ember142" class="section-title ember-view">
+                              		
+                              <p><strong style="font-size: 80%; color: rgb(0, 92, 191); background-color: transparent;">COLLNET 2025: Advancing Research in Webometrics, Informetrics &amp; Scientometrics</strong></p>
+                           </h3>
+                           
+                        </div>
+                        <div data-element-id="37939000000002107" id="ember143" class="ember-view">
+                           <h5 text-id="37939000000002109" id="ember144" class="section-sub-title ember-view">
+                              		
+                           </h5>
+                           
+                        </div>
+                        <div data-element-id="37939000000002110" id="ember145" class="ember-view">
+                           <div id="ember146" class="markdown-contain ember-view">
+                              <p><strong>Welcome Message:</strong></p>
+                              <p><br></p>
+                              <p style="line-height: 1.38;"><span style="background-color: transparent;">&nbsp;Welcome to the </span><strong style="background-color: transparent;">19th International Conference on Webometrics, </strong><strong>Informetics </strong><strong style="background-color: transparent;">&amp; Scientometrics (WIS) and the 24th COLLNET Meeting</strong><span style="background-color: transparent;">. This global conference brings together </span><strong style="background-color: transparent;">researchers, scientists, information professionals, and policymakers</strong><span style="background-color: transparent;"> to discuss the latest developments in </span><strong style="background-color: transparent;">scientific collaboration, research evaluation, and information science</strong><span style="background-color: transparent;">.</span></p>
+                              <p><span style="background-color: transparent;">📅 </span><strong style="background-color: transparent;">Date:</strong><span style="background-color: transparent;"> September 19-21, 2025</span></p>
+                              <p>📍 <strong style="background-color: transparent;">Venue:</strong><span style="background-color: transparent;"> Institute of Economic Growth, University of Delhi Enclave, New Delhi, India</span></p>
+                              <p>🌍 <strong style="background-color: transparent;">Mode:</strong><span style="background-color: transparent;"> Hybrid (In-Person &amp; Virtual)</span></p>
+                              
+                           </div>
+                           
+                        </div>
+                     </article>
+                  </section>
+                  <section data-section-id="37939000000096001" id="ember147" class="bs-section default community-section-mediaWithTextList-3 primary-button alternative-background custom-section ember-view">
+                     <div class="background-layer " style="">
+                        
+                     </div>
+                     <article role="presentation" id="ember148" class="foreground-layer bs-container ember-view">
+                        <div data-element-id="37939000000096002" id="ember149" class="ember-view">
+                           <h3 text-id="37939000000096003" id="ember150" class="section-title ember-view">
+                              		
+                              <p style="line-height: 2;"><span style="font-size: 80%; color: rgb(0, 92, 191);">CONFERENCE ORGANIZERS</span></p>
+                           </h3>
+                           
+                        </div>
+                        <div data-element-id="37939000000096004" id="ember151" class="ember-view">
+                           <h5 text-id="37939000000096005" id="ember152" class="section-sub-title ember-view">
+                              		
+                              <p><span style="color: rgb(0, 0, 0); letter-spacing: 0.001px;">Below the COLLNET 2025: Advancing Research in Webometrics, Informetrics &amp; Scientometrics (after the Hybrid (In-Person &amp; Virtual))</span></p>
+                           </h5>
+                           
+                        </div>
+                        <div data-element-id="37939000000096006" id="ember153" class="ember-view">
+                           	
+                           <div id="ember154" class="ember-view">
+                              <div id="ember156" class="media-text-layout ember-view">
+                                 <div class="image-layout">
+                                    <div class="bs-mtList-wgt grb-list lyt-medium-media col-view column-4 align-item-left  left-align ">
+                                       <div data-id="37939000000096007" id="ember157" class="li-item ember-view">
+                                          <div class="list-image">
+                                             <div media-id="37939000000096080" id="ember158" class="bs-media-wgt media-settings ember-view">
+                                                <div class="media-element  img-rectangle img-object-fit" style="--media-border-width:0px;height:126.83999999999999px;">
+                                                   <div class="media-image " style="height:126.69999999999999px">
+                                                      <img src="ORGANIZERS-1.png" alt="https://iegindia.org/" class="fluid-image" loading="lazy">
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="li-content">
+                                             <h4 text-id="37939000000096008" id="ember159" class="li-title ember-view">
+                                                		
+                                                <p><span style="color: rgb(17, 85, 204); font-size: 80%;"><a href="https://iegindia.org/" target="_blank" rel="noopener noreferrer">https://iegindia.org/</a></span></p>
+                                             </h4>
+                                             		
+                                             <div text-id="37939000000096010" id="ember160" class="li-description markdown-contain ember-view">
+                                                		
+                                             </div>
+                                             
+                                          </div>
+                                       </div>
+                                       <div data-id="37939000000096014" id="ember161" class="li-item ember-view">
+                                          <div class="list-image">
+                                             <div media-id="37939000000096088" id="ember162" class="bs-media-wgt media-settings ember-view">
+                                                <div class="media-element  img-rectangle img-object-fit" style="--media-border-width:0px;height:126.83999999999999px;">
+                                                   <div class="media-image " style="height:126.69999999999999px">
+                                                      <img src="ORGANIZERS-2.png" alt="https://www.collnet.de/" class="fluid-image" loading="lazy">
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="li-content">
+                                             <h4 text-id="37939000000096015" id="ember163" class="li-title ember-view">
+                                                		
+                                                <p><span style="color: rgb(17, 85, 204); font-size: 80%;"><a href="https://www.collnet.de/" target="_blank" rel="noopener noreferrer">https://www.collnet.de/</a></span></p>
+                                             </h4>
+                                             		
+                                             <div text-id="37939000000096017" id="ember164" class="li-description markdown-contain ember-view">
+                                                		
+                                             </div>
+                                             
+                                          </div>
+                                       </div>
+                                       <div data-id="37939000000096021" id="ember165" class="li-item ember-view">
+                                          <div class="list-image">
+                                             <div media-id="37939000000096096" id="ember166" class="bs-media-wgt media-settings ember-view">
+                                                <div class="media-element  img-rectangle img-object-fit" style="--media-border-width:0px;height:126.83999999999999px;">
+                                                   <div class="media-image " style="height:126.69999999999999px">
+                                                      <img src="ORGANIZERS-3.png" alt="https://www.slaasia.org.in/" class="fluid-image" loading="lazy">
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="li-content">
+                                             <h4 text-id="37939000000096022" id="ember167" class="li-title ember-view">
+                                                		
+                                                <p><span style="color: rgb(17, 85, 204); font-size: 80%;"><a href="https://www.slaasia.org.in/" target="_blank" rel="noopener noreferrer">https://www.slaasia.org.in/</a></span></p>
+                                             </h4>
+                                             		
+                                             <div text-id="37939000000096024" id="ember168" class="li-description markdown-contain ember-view">
+                                                		
+                                             </div>
+                                             
+                                          </div>
+                                       </div>
+                                       <div data-id="37939000000096028" id="ember169" class="li-item ember-view">
+                                          <div class="list-image">
+                                             <div media-id="37939000000096104" id="ember170" class="bs-media-wgt media-settings ember-view">
+                                                <div class="media-element  img-rectangle img-object-fit" style="--media-border-width:0px;height:126.83999999999999px;">
+                                                   <div class="media-image " style="height:126.69999999999999px">
+                                                      <img src="ORGANIZERS-4.png" alt="https://www.slp.org.in/" class="fluid-image" loading="lazy">
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="li-content">
+                                             <h4 text-id="37939000000096029" id="ember171" class="li-title ember-view">
+                                                		
+                                                <p><span style="color: rgb(17, 85, 204); font-size: 80%;"><a href="https://www.slp.org.in/" target="_blank" rel="noopener noreferrer">https://www.slp.org.in/</a></span></p>
+                                             </h4>
+                                             		
+                                             <div text-id="37939000000096031" id="ember172" class="li-description markdown-contain ember-view">
+                                                		
+                                             </div>
+                                             
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </article>
+                  </section>
+                  <section data-section-id="37939000000042716" id="ember173" class="bs-section default community-section-galleryList primary-button custom-section ember-view">
+                     <div class="background-layer " style="">
+                        
+                     </div>
+                     <article role="presentation" id="ember174" class="foreground-layer bs-container ember-view">
+                        <div data-element-id="37939000000042717" id="ember175" class="ember-view">
+                           <h3 text-id="37939000000042718" id="ember176" class="section-title ember-view">
+                              		
+                              <p><span style="color: rgb(0, 92, 191);">Glimpses of COLLNET</span></p>
+                           </h3>
+                           
+                        </div>
+                        <div data-element-id="37939000000042720" id="ember177" class="ember-view">
+                           <h5 text-id="37939000000042721" id="ember178" class="section-sub-title ember-view">
+                              		
+                           </h5>
+                           
+                        </div>
+                        <div data-element-id="37939000000042723" id="ember179" class="ember-view">
+                           	
+                           <div id="ember180" class="ember-view">
+                              <bs-widget id="ember182" class="bs-album ember-view dimmable">
+                                 
+                                 <div class="ui ">
+                                    <div class="bs-text-menu">
+                                       <div class="item">
+                                          				
+                                       </div>
+                                       <div class="right-items no-wrap">
+                                          				
+                                       </div>
+                                    </div>
+                                    <div class="image-dropzone">
+                                       <div>
+                                          <div class="galleryLayout justified-gallery" style="height: 800px;">
+                                             <span style="display:none"></span>
+                                             <div tabindex="0" gallery-id="37939000000073278" id="ember373" class="gallery-component ember-view jg-entry" target="_blank" style="width: 457px; height: 252px; top: 12px; left: 12px; opacity: 1;">
+                                                <div aria-label="Click to View Image image-1.jpg from Gallery" class="gallery-card pointer " style="background-color: ;">
+                                                   <img src="slider-img-1.jpg" loading="lazy" style="width: 455px; height: 274px; margin-left: -227.5px; margin-top: -137px;">
+                                                   <div class="ui dimmer transition visible">
+                                                    
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <div tabindex="0" gallery-id="37939000000055032" id="ember376" class="gallery-component ember-view jg-entry" target="_blank" style="width: 412px; height: 252px; top: 12px; left: 479px; opacity: 1;">
+                                                <div aria-label="Click to View Image WhatsApp Image 2025-03-24 at 17.24.58.jpg from Gallery" class="gallery-card pointer " style="background-color: ;">
+                                                   <img src="slider-img-2.jpg" loading="lazy" style="width: 410px; height: 274px; margin-left: -205px; margin-top: -137px;">
+                                                   <div class="ui dimmer transition visible">
+                                                     
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <div tabindex="0" gallery-id="37939000000055017" id="ember379" class="gallery-component ember-view jg-entry" target="_blank" style="width: 367px; height: 252px; top: 12px; left: 901px; opacity: 1;">
+                                                <div aria-label="Click to View Image WhatsApp Image 2025-03-24 at 17.24.13.jpg from Gallery" class="gallery-card pointer " style="background-color: ;">
+                                                   <img src="slider-img-3.jpg" loading="lazy" style="width: 365px; height: 274px; margin-left: -182.5px; margin-top: -137px;">
+                                                   <div class="ui dimmer transition visible">
+                                                     
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <div tabindex="0" gallery-id="37939000000055024" id="ember382" class="gallery-component ember-view jg-entry" target="_blank" style="width: 424px; height: 252px; top: 274px; left: 12px; opacity: 1;">
+                                                <div aria-label="Click to View Image WhatsApp Image 2025-03-24 at 17.20.47 (1).jpg from Gallery" class="gallery-card pointer " style="background-color: ;">
+                                                   <img src="slider-img-4.jpg" loading="lazy" style="width: 422px; height: 253px; margin-left: -211px; margin-top: -126.5px;">
+                                                   <div class="ui dimmer transition visible">
+                                                   
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <div tabindex="0" gallery-id="37939000000055012" id="ember392" class="gallery-component ember-view jg-entry" target="_blank" style="width: 390px; height: 252px; top: 274px; left: 446px; opacity: 1;">
+                                                <div aria-label="Click to View Image WhatsApp Image 2025-03-24 at 17.20.47 (2).jpg from Gallery" class="gallery-card pointer " style="background-color: ;">
+                                                   <img src="slider-img-5.jpg" loading="lazy" style="width: 388px; height: 253px; margin-left: -194px; margin-top: -126.5px;">
+                                                   <div class="ui dimmer transition visible">
+                                                
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <div tabindex="0" gallery-id="37939000000073293" id="ember395" class="gallery-component ember-view jg-entry" target="_blank" style="width: 422px; height: 252px; top: 274px; left: 846px; opacity: 1;">
+                                                <div aria-label="Click to View Image image-3.jpg from Gallery" class="gallery-card pointer " style="background-color: ;">
+                                                   <img src="slider-img-6.jpg" loading="lazy" style="width: 420px; height: 253px; margin-left: -210px; margin-top: -126.5px;">
+                                                   <div class="ui dimmer transition visible">
+                                                 
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <div tabindex="0" gallery-id="37939000000073308" id="ember398" class="gallery-component ember-view jg-entry" target="_blank" style="width: 419px; height: 252px; top: 536px; left: 12px; opacity: 1;">
+                                                <div aria-label="Click to View Image image-2.jpg from Gallery" class="gallery-card pointer " style="background-color: ;">
+                                                   <img src="slider-img-7.jpg" loading="lazy" style="width: 417px; height: 250px; margin-left: -208.5px; margin-top: -125px;">
+                                                   <div class="ui dimmer transition visible">
+                                                
+                                                   </div>
+                                                </div>
+                                             </div>
+
+											 <div tabindex="0" gallery-id="37939000000055027" id="ember401" class="gallery-component ember-view jg-entry" target="_blank" style="width: 357px; height: 252px; top: 536px; left: 441px; opacity: 1;">
+                                                <div aria-label="Click to View Image WhatsApp Image 2025-03-24 at 17.20.47.jpg from Gallery" class="gallery-card pointer " style="background-color: ;">
+                                                   <img src="slider-img-99.jpeg" loading="lazy" style="width: 355px; height: 250px; margin-left: -177.5px; margin-top: -125px;">
+                                                   <div class="ui dimmer transition visible">
+                                                  
+                                                   </div>
+                                                </div>
+                                             </div>
+
+
+                                             <div tabindex="0" gallery-id="37939000000055027" id="ember401" class="gallery-component ember-view jg-entry" target="_blank" style="width: 357px; height: 252px; top: 536px; left:805px; opacity: 1;">
+                                                <div aria-label="Click to View Image WhatsApp Image 2025-03-24 at 17.20.47.jpg from Gallery" class="gallery-card pointer " style="background-color: ;">
+                                                   <img src="slider-img-8.jpg" loading="lazy" style="width: 355px; height: 250px; margin-left: -177.5px; margin-top: -125px;">
+                                                   <div class="ui dimmer transition visible">
+                                                  
+                                                   </div>
+                                                </div>
+                                             </div>
+											 
+                                          </div>
+                                          			
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="ui hidden">
+                                    <div id="ember183" class="community-page-gallery ember-view">
+                                       <div class="empty-section ">
+                                          <div>
+                                             <i class="gallery-icon theme-icon" aria-hidden="true"></i>
+                                          </div>
+                                          <h5>We'll share pictures from <strong>COLLNET Meeting 2025</strong> soon. Keep an eye on this space.</h5>
+                                          <p>
+                                             
+                                          </p>
+                                          <div class="empty-section-button">
+                                             <button data-a11y="focus link" data-tracker="contact_us" style="" id="ember184" class="bs-button large primary bs-button ember-view">
+                                                					Get in touch
+                                             </button>
+                                             
+                                             
+                                             
+                                             
+                                             
+                                             		
+                                          </div>
+                                          <div class="meta" data-ember-action="" data-ember-action-185="185">
+                                             		
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div id="ember371" class="ember-view">
+                                    
+                                 </div>
+                                 
+                              </bs-widget>
+                           </div>
+                        </div>
+                     </article>
+                  </section>
+                  <section data-section-id="37939000000042773" id="ember188" class="bs-section default community-section-list-1 primary-button alternative-background custom-section ember-view">
+                     <div class="background-layer " style="">
+                        
+                     </div>
+                     <article role="presentation" id="ember189" class="foreground-layer bs-container ember-view">
+                        <div data-element-id="37939000000042774" id="ember190" class="ember-view">
+                           <h3 text-id="37939000000042775" id="ember191" class="section-title ember-view">
+                              		
+                              <p><span style="color: rgb(0, 92, 191);">Important Dates</span></p>
+                           </h3>
+                           
+                        </div>
+                        <div data-element-id="37939000000042777" id="ember192" class="ember-view">
+                           <h5 text-id="37939000000042778" id="ember193" class="section-sub-title ember-view">
+                              		
+                           </h5>
+                           
+                        </div>
+                        <div data-element-id="37939000000042780" id="ember194" class="ember-view">
+                           	
+                           <div id="ember195" class="ember-view">
+                              <div id="ember197" class="ember-view">
+                                 <div class="bs-ul-list hand ">
+                                    <ul>
+                                       <li data-id="37939000000042781" id="ember198" class="ember-view">
+                                          <div text-id="37939000000042781" id="ember199" class="markdown-contain ember-view">
+                                             		First Date of Extended Abstract Submission 15 June 2025
+                                          </div>
+                                       </li>
+                                       <li data-id="37939000000042783" id="ember200" class="ember-view">
+                                          <div text-id="37939000000042783" id="ember201" class="markdown-contain ember-view">
+                                             		Confirmation of Accepted Abstracts 8 July 2025
+                                          </div>
+                                       </li>
+                                       <li data-id="37939000000042785" id="ember202" class="ember-view">
+                                          <div text-id="37939000000042785" id="ember203" class="markdown-contain ember-view">
+                                             		Date of Full Paper Submission 27 July 2025
+                                          </div>
+                                       </li>
+                                       <li data-id="37939000000042792" id="ember204" class="ember-view">
+                                          <div text-id="37939000000042792" id="ember205" class="markdown-contain ember-view">
+                                             		Final Notification of the Accepted Papers 10 August 2025
+                                          </div>
+                                       </li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </article>
+                  </section>
+                  <section data-section-id="37939000000002261" id="ember206" class="bs-section default community-section-eventVenue primary-button ember-view">
+                     <div class="background-layer " style="">
+                        
+                     </div>
+                     <article role="presentation" id="ember207" class="foreground-layer bs-container ember-view">
+                        <div data-element-id="37939000000002148" id="ember208" class="ember-view">
+                           <h3 text-id="37939000000002150" id="ember209" class="section-title ember-view">
+                              		
+                              <p><span style="color: rgb(0, 92, 191);">Venue</span></p>
+                           </h3>
+                           
+                        </div>
+                        <div data-element-id="37939000000002151" id="ember210" class="ember-view">
+                           <h5 text-id="37939000000002153" id="ember211" class="section-sub-title ember-view">
+                              		Our location and how you can get here
+                           </h5>
+                           
+                        </div>
+                        <div data-element-id="37939000000002154" id="ember212" class="ember-view">
+                           	
+                           <div id="ember213" class="ember-view">
+                              <div id="ember215" class="bs-eventVenue-info ember-view">
+                                 <div class="embed-map">
+                                    <div id="ember216" class="ember-view">
+                                       <div class="bs-container">
+                                          <div class="grb-list fluid-image large column-1 centered card-view">
+                                             <div class="li-item">
+                                                <div class="list-image">
+                                                   <img src="img-Address.jpg" alt="undefined" class="bs-image" loading="lazy">
+                                                </div>
+                                                <div class="li-content">
+                                                   <div data-a11y="critical">
+                                                      <h4 class="strong">Address</h4>
+                                                      <div class="li-description">
+                                                         <strong>Institute of Economic Growth.</strong><br>M6J5+RW4, University Enclave, New Delhi, North Delhi, Delhi, Delhi, Delhi - 110007<br>India
+                                                      </div>
+                                                   </div>
+                                                   <div>
+                                                      <a href="https://maps.google.com?saddr=current+Location&amp;daddr=Institute%20of%20Economic%20Growth.,%20Hansraj%20College,%20Delhi,%20India" target="_blank" class="bs-button primary large" data-tracker="get_directions">
+                                                      Get Directions
+                                                      </a>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="venue map " aria-hidden="true">
+                                       <div>
+                                          <iframe width="100%" height="540" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBiyf0K2SL3k9iXh7cKB4mB7eo3g4jd39k&amp;q=place_id:ChIJDZ6h-5D9DDkRl8WCxD3cMRw&amp;language=en"></iframe>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 
+                              </div>
+                           </div>
+                           
+                        </div>
+                     </article>
+                  </section>
+                  <section data-section-id="37939000000055045" id="ember217" class="bs-section default community-section-mediaWithTextList-1 primary-button alternative-background custom-section ember-view">
+                     <div class="background-layer " style="">
+                        
+                     </div>
+                     <article role="presentation" id="ember218" class="foreground-layer bs-container ember-view">
+                        <div data-element-id="37939000000055046" id="ember219" class="ember-view">
+                           <h3 text-id="37939000000055047" id="ember220" class="section-title ember-view">
+                              		
+                              <p><span style="letter-spacing: 0.001px; color: rgb(0, 92, 191);">Meet the People Behind the COLLNET 2025</span></p>
+                           </h3>
+                           
+                        </div>
+                        <div data-element-id="37939000000055049" id="ember221" class="ember-view">
+                           <h5 text-id="37939000000055050" id="ember222" class="section-sub-title ember-view">
+                              		
+                           </h5>
+                           
+                        </div>
+                        <div data-element-id="37939000000055052" id="ember223" class="ember-view">
+                           	
+                           <div id="ember224" class="ember-view">
+                              <div id="ember226" class="media-text-layout ember-view">
+                                 <div class="image-layout">
+                                    <div class="bs-mtList-wgt grb-list lyt-medium-media col-view column-4 align-item-center  centered ">
+                                       <div data-id="37939000000055053" id="ember227" class="li-item ember-view">
+                                          <div class="list-image">
+                                             <div media-id="37939000000055131" id="ember228" class="bs-media-wgt media-settings ember-view">
+                                                <div class="media-element  img-square img-object-fit" style="--media-border-width:0px;--media-border-color:color-mix(in srgb, #dadbdd, #000 0%);height:177.6px;">
+                                                   <div class="media-image " style="height:178px">
+                                                      <img src="Dr- Bernd-Markscheffel.jpg" alt="Dr. Bernd MarkscheffelGeneral Chair, COLLNET 2024" class="fluid-image" loading="lazy">
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="li-content">
+                                             <h4 text-id="37939000000055054" id="ember229" class="li-title ember-view">
+                                                		
+                                                <p><span style="color: rgb(0, 92, 191); font-size: 80%;">Dr. Bernd Markscheffel</span></p>
+                                                <p><span style="color: rgb(0, 92, 191); font-size: 60%;">General Chair, COLLNET 2024</span></p>
+                                             </h4>
+                                             		
+                                             <div text-id="37939000000055058" id="ember230" class="li-description markdown-contain ember-view">
+                                                		
+                                                <p>Technische Universität Ilmenau, Germany</p>
+                                                <p><span style="color: rgb(0, 92, 191);"><a href="mailto:bernd.markscheffel@tu-ilmenau.de" target="_blank" rel="noopener noreferrer">bernd.markscheffel@tu-ilmenau.de</a></span></p>
+                                                <p><br></p>
+                                             </div>
+                                             
+                                          </div>
+                                       </div>
+                                       <div data-id="37939000000055064" id="ember231" class="li-item ember-view">
+                                          <div class="list-image">
+                                             <div media-id="37939000000055156" id="ember232" class="bs-media-wgt media-settings ember-view">
+                                                <div class="media-element  img-square img-object-fit" style="--media-border-width:0px;--media-border-color:color-mix(in srgb, #dadbdd, #000 0%);height:177.6px;">
+                                                   <div class="media-image " style="height:178px">
+                                                      <img src="Dr- P-K-Jain.jpg" alt="Dr. P K JainLocal Chair &amp; Organizing Secretary, COLLNET 2025" class="fluid-image" loading="lazy">
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="li-content">
+                                             <h4 text-id="37939000000055065" id="ember233" class="li-title ember-view">
+                                                		
+                                                <p><span style="color: rgb(0, 92, 191); font-size: 80%;">Dr. P K Jain</span></p>
+                                                <p><span style="font-size: 60%; color: rgb(0, 92, 191);">Local Chair &amp; Organizing Secretary, COLLNET 2025</span></p>
+                                             </h4>
+                                             		
+                                             <div text-id="37939000000055069" id="ember234" class="li-description markdown-contain ember-view">
+                                                		
+                                                <p>Librarian, Institute of Economic Growth, Delhi, India</p>
+                                                <p><a style="color: rgb(0, 92, 191);" rel="noopener noreferrer" target="_blank" href="tel:+919899110787">+91 9899110787</a></p>
+                                                <p><a style="color: rgb(0, 92, 191);" rel="noopener noreferrer" target="_blank" href="mailto:pkjain1310@gmail.com">&nbsp;pkjain1310@gmail.com</a></p>
+                                                <p><br></p>
+                                             </div>
+                                             
+                                          </div>
+                                       </div>
+                                       <div data-id="37939000000055075" id="ember235" class="li-item ember-view">
+                                          <div class="list-image">
+                                             <div media-id="37939000000055182" id="ember236" class="bs-media-wgt media-settings ember-view">
+                                                <div class="media-element  img-square img-object-fit" style="--media-border-width:0px;--media-border-color:color-mix(in srgb, #dadbdd, #000 0%);height:177.6px;">
+                                                   <div class="media-image " style="height:178px">
+                                                      <img src="Dr-Debal-C-Kar.jpg" alt="Dr. Debal C KarP ,rogram Chair, COLLNET 2025" class="fluid-image" loading="lazy">
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="li-content">
+                                             <h4 text-id="37939000000055076" id="ember237" class="li-title ember-view">
+                                                		
+                                                <p><span style="color: rgb(0, 92, 191); font-size: 80%;">Dr. Debal C Kar</span></p>
+                                                <p><span style="color: rgb(0, 92, 191); font-size: 60%;">Program Chair, COLLNET 2025</span></p>
+                                             </h4>
+                                             		
+                                             <div text-id="37939000000055080" id="ember238" class="li-description markdown-contain ember-view">
+                                                		
+                                                <p>Librarian, Galgotia University Noida, Delhi, India</p>
+                                             </div>
+                                             
+                                          </div>
+                                       </div>
+                                       <div data-id="37939000000055089" id="ember239" class="li-item ember-view">
+                                          <div class="list-image">
+                                             <div media-id="37939000000055199" id="ember240" class="bs-media-wgt media-settings ember-view">
+                                                <div class="media-element  img-square img-object-fit" style="--media-border-width:0px;--media-border-color:color-mix(in srgb, #dadbdd, #000 0%);height:177.6px;">
+                                                   <div class="media-image " style="height:178px">
+                                                      <img src="Dr-Parveen-Babbar.jpg" alt="Dr. Parveen Babbar, Coordinator, COLLNET 2025" class="fluid-image" loading="lazy">
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="li-content">
+                                             <h4 text-id="37939000000055090" id="ember241" class="li-title ember-view">
+                                                		
+                                                <p><span style="color: rgb(0, 92, 191); font-size: 80%;">Dr. Parveen Babbar</span></p>
+                                                <p><span style="font-size: 60%; color: rgb(0, 92, 191);">Coordinator, COLLNET 2025</span></p>
+                                             </h4>
+                                             		
+                                             <div text-id="37939000000055094" id="ember242" class="li-description markdown-contain ember-view">
+                                                		
+                                                <p>Deputy Librarian, Jawaharlal Nehru University, New Delhi, India</p>
+                                             </div>
+                                             
+                                          </div>
+                                       </div>
+                                       <div data-id="37939000000055212" id="ember243" class="li-item ember-view">
+                                          <div class="list-image">
+                                             <div media-id="37939000000055230" id="ember244" class="bs-media-wgt media-settings ember-view">
+                                                <div class="media-element  img-square img-object-fit" style="--media-border-width:0px;--media-border-color:color-mix(in srgb, #dadbdd, #000 0%);height:177.6px;">
+                                                   <div class="media-image " style="height:178px">
+                                                      <img src="N-K-Wadhwa.jpg" alt="N. K. WadhwaCoordinator, COLLNET 2025" class="fluid-image" loading="lazy">
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="li-content">
+                                             <h4 text-id="37939000000055213" id="ember245" class="li-title ember-view">
+                                                		
+                                                <p><span style="color: rgb(0, 92, 191); font-size: 80%;">N. K. Wadhwa</span></p>
+                                                <p><span style="font-size: 60%; color: rgb(0, 92, 191);">Coordinator, COLLNET 2025</span></p>
+                                             </h4>
+                                             		
+                                             <div text-id="37939000000055217" id="ember246" class="li-description markdown-contain ember-view">
+                                                		
+                                                <p>Former Chief Scientist, CSIR-NPL, Delhi, India</p>
+                                             </div>
+                                             
+                                          </div>
+                                       </div>
+                                       <div data-id="37939000000055249" id="ember247" class="li-item ember-view">
+                                          <div class="list-image">
+                                             <div media-id="37939000000055267" id="ember248" class="bs-media-wgt media-settings ember-view">
+                                                <div class="media-element  img-square img-object-fit" style="--media-border-width:0px;--media-border-color:color-mix(in srgb, #dadbdd, #000 0%);height:177.6px;">
+                                                   <div class="media-image " style="height:178px">
+                                                      <img src="Hildrun-Kretschmer.jpg" alt="Hildrun KretschmerCOLLNET Founder and Coordinator" class="fluid-image" loading="lazy">
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="li-content">
+                                             <h4 text-id="37939000000055250" id="ember249" class="li-title ember-view">
+                                                		
+                                                <p><span style="color: rgb(0, 92, 191); font-size: 80%;">Hildrun Kretschmer</span></p>
+                                                <p><span style="letter-spacing: normal; color: rgb(0, 92, 191); font-size: 60%;">COLLNET Founder and Coordinator</span></p>
+                                             </h4>
+                                             		
+                                             <div text-id="37939000000055254" id="ember250" class="li-description markdown-contain ember-view">
+                                                		
+                                                <p>Honorary Professor, Henan Normal University, Xinxiang, China</p>
+                                                <p>PD, Dr. sc. phil., Dr. oec., Dipl.-psych.</p>
+                                                <p><span style="color: rgb(0, 92, 191);">&nbsp;<a href="mailto:kretschmer.h@onlinehome.de" target="_blank" rel="noopener noreferrer">kretschmer.h@onlinehome.de</a></span></p>
+                                                <p><span style="color: rgb(0, 92, 191);"><a href="http://www.h-kretschmer.de" target="_blank" rel="noopener noreferrer">www.h-kretschmer.de</a></span></p>
+                                             </div>
+                                             
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </article>
+                  </section>
+                  <section data-section-id="37939000000042899" id="ember251" class="bs-section default community-section-galleryList primary-button custom-section ember-view">
+                     <div class="background-layer " style="">
+                        
+                     </div>
+                     <article role="presentation" id="ember252" class="foreground-layer bs-container ember-view">
+                        <div data-element-id="37939000000042900" id="ember253" class="ember-view">
+                           <h3 text-id="37939000000042901" id="ember254" class="section-title ember-view">
+                              		
+                              <p><span style="color: rgb(0, 92, 191);">Knowledge Partner&nbsp;&nbsp;&nbsp;</span></p>
+                           </h3>
+                           
+                        </div>
+                        <div data-element-id="37939000000042903" id="ember255" class="ember-view">
+                           <h5 text-id="37939000000042904" id="ember256" class="section-sub-title ember-view">
+                              		
+                           </h5>
+                           
+                        </div>
+                        <div data-element-id="37939000000042906" id="ember257" class="ember-view">
+                           	
+                           <div id="ember258" class="ember-view">
+                              <bs-widget id="ember260" class="bs-album ember-view dimmable">
+                                 
+                                 <div class="ui ">
+                                    <div class="bs-text-menu">
+                                       <div class="item">
+                                          				
+                                       </div>
+                                       <div class="right-items no-wrap">
+                                          				
+                                       </div>
+                                    </div>
+                                    <div class="image-dropzone">
+                                       <div>
+                                          <div class="galleryLayout justified-gallery" style="height: 246px;">
+                                             <span style="display:none"></span>
+                                             <div tabindex="0" gallery-id="37939000000042956" id="ember385" class="gallery-component ember-view jg-entry" target="_blank" style="width: 1021px; height: 222px; top: 12px; left: 12px; opacity: 1;">
+                                                <div aria-label="Click to View Image tr_logo.png from Gallery" class="gallery-card pointer " style="background-color: ;">
+                                                   <img src="Knowledge-Partner.png" loading="lazy" style="left:0px;">
+                                                   <div class="ui dimmer transition visible">
+                                                 
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          			
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="ui hidden">
+                                    <div id="ember261" class="community-page-gallery ember-view">
+                                       <div class="empty-section ">
+                                          <div>
+                                             <i class="gallery-icon theme-icon" aria-hidden="true"></i>
+                                          </div>
+                                          <h5>We'll share pictures from <strong>COLLNET Meeting 2025</strong> soon. Keep an eye on this space.</h5>
+                                          <p>
+                                             
+                                          </p>
+                                          <div class="empty-section-button">
+                                             <button data-a11y="focus link" data-tracker="contact_us" style="" id="ember262" class="bs-button large primary bs-button ember-view">
+                                                					Get in touch
+                                             </button>
+                                             
+                                             
+                                             
+                                             
+                                             
+                                             		
+                                          </div>
+                                          <div class="meta" data-ember-action="" data-ember-action-263="263">
+                                             		
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div id="ember372" class="ember-view">
+                                    
+                                 </div>
+                                 
+                              </bs-widget>
+                           </div>
+                        </div>
+                     </article>
+                  </section>
+                  <section data-section-id="37939000000042868" id="ember266" class="bs-section default community-section-galleryList primary-button alternative-background custom-section ember-view">
+                     <div class="background-layer " style="">
+                        
+                     </div>
+                     <article role="presentation" id="ember267" class="foreground-layer bs-container ember-view">
+                        <div data-element-id="37939000000042869" id="ember268" class="ember-view">
+                           <h3 text-id="37939000000042870" id="ember269" class="section-title ember-view">
+                              		
+                              <p><span style="color: rgb(0, 92, 191);">Supported By</span></p>
+                           </h3>
+                           
+                        </div>
+                        <div data-element-id="37939000000042872" id="ember270" class="ember-view">
+                           <!--<h5 text-id="37939000000042873" id="ember271" class="section-sub-title ember-view">
+                              		Enter a description for the gallery
+                           </h5>-->
+                           
+                        </div>
+                        <div data-element-id="37939000000042875" id="ember272" class="ember-view">
+                           	
+                           <div id="ember273" class="ember-view">
+                              <bs-widget id="ember275" class="bs-album ember-view dimmable">
+                                 
+                                 <div class="ui ">
+                                    <div class="bs-text-menu">
+                                       <div class="item">
+                                          				
+                                       </div>
+                                       <div class="right-items no-wrap">
+                                          				
+                                       </div>
+                                    </div>
+                                    <div class="image-dropzone">
+                                       <div>
+                                          <div class="galleryLayout justified-gallery" style="height: 246px;">
+                                             <span style="display:none"></span>
+                                             <div tabindex="0" gallery-id="37939000000042883" id="ember389" class="gallery-component ember-view jg-entry" target="_blank" style="width: 222px; height: 222px; top: 12px; left: 12px; opacity: 1;">
+                                                <div aria-label="Click to View Image ICSSR.jpg from Gallery" class="gallery-card pointer " style="background-color: ;">
+                                                   <img src="Supported-By.jpg" loading="lazy" style="width: 220px; height: 220px; margin-left: -110px; margin-top: -110px;">
+                                                   <div class="ui dimmer transition visible">
+                                                    
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          			
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="ui hidden">
+                                    <div id="ember276" class="community-page-gallery ember-view">
+                                       <div class="empty-section ">
+                                          <div>
+                                             <i class="gallery-icon theme-icon" aria-hidden="true"></i>
+                                          </div>
+                                          <h5>We'll share pictures from <strong>COLLNET Meeting 2025</strong> soon. Keep an eye on this space.</h5>
+                                          <p>
+                                             
+                                          </p>
+                                          <div class="empty-section-button">
+                                             <button data-a11y="focus link" data-tracker="contact_us" style="" id="ember277" class="bs-button large primary bs-button ember-view">
+                                                					Get in touch
+                                             </button>
+                                             
+                                             
+                                             
+                                             
+                                             
+                                             		
+                                          </div>
+                                          <div class="meta" data-ember-action="" data-ember-action-278="278">
+                                             		
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div id="ember388" class="ember-view">
+                                    
+                                 </div>
+                                 
+                              </bs-widget>
+                           </div>
+                        </div>
+                     </article>
+                  </section>
+				   <section data-section-id="37939000000042899" id="ember251" class="bs-section default community-section-galleryList primary-button custom-section ember-view">
+                     <div class="background-layer " style="">
+                        
+                     </div>
+                     <article role="presentation" id="ember252" class="foreground-layer bs-container ember-view">
+                        <div data-element-id="37939000000042900" id="ember253" class="ember-view">
+                           <h3 text-id="37939000000042901" id="ember254" class="section-title ember-view">
+                              		
+                              <p><span style="color: rgb(0, 92, 191);">Associate Partner</span></p>
+                           </h3>
+                           
+                        </div>
+                        <div data-element-id="37939000000042903" id="ember255" class="ember-view">
+                           <h5 text-id="37939000000042904" id="ember256" class="section-sub-title ember-view">
+                              		
+                           </h5>
+                           
+                        </div>
+                        <div data-element-id="37939000000042906" id="ember257" class="ember-view">
+                           	
+                           <div id="ember258" class="ember-view">
+                              <bs-widget id="ember260" class="bs-album ember-view dimmable">
+                                 
+                                 <div class="ui ">
+                                    <div class="bs-text-menu">
+                                       <div class="item">
+                                          				
+                                       </div>
+                                       <div class="right-items no-wrap">
+                                          				
+                                       </div>
+                                    </div>
+                                    <div class="image-dropzone">
+                                       <div>
+                                          <div class="galleryLayout justified-gallery" style="height: 246px;">
+                                             <span style="display:none"></span>
+                                             <div tabindex="0" gallery-id="37939000000042956" id="ember385" class="gallery-component ember-view jg-entry" target="_blank" style="width: 1021px; height: 222px; top: 12px; left: 12px; opacity: 1;">
+                                                <div aria-label="Click to View Image tr_logo.png from Gallery" class="gallery-card pointer " style="background-color: ;">
+                                                   <img src="delnet-logo.jpg" loading="lazy" style="left:0px;">
+                                                   <div class="ui dimmer transition visible">
+                                                 
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          			
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="ui hidden">
+                                    <div id="ember261" class="community-page-gallery ember-view">
+                                       <div class="empty-section ">
+                                          <div>
+                                             <i class="gallery-icon theme-icon" aria-hidden="true"></i>
+                                          </div>
+                                          <h5>We'll share pictures from <strong>COLLNET Meeting 2025</strong> soon. Keep an eye on this space.</h5>
+                                          <p>
+                                             
+                                          </p>
+                                          <div class="empty-section-button">
+                                             <button data-a11y="focus link" data-tracker="contact_us" style="" id="ember262" class="bs-button large primary bs-button ember-view">
+                                                					Get in touch
+                                             </button>
+                                             
+                                             
+                                             
+                                             
+                                             
+                                             		
+                                          </div>
+                                          <div class="meta" data-ember-action="" data-ember-action-263="263">
+                                             		
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div id="ember372" class="ember-view">
+                                    
+                                 </div>
+                                 
+                              </bs-widget>
+                           </div>
+                        </div>
+                     </article>
+                  </section>
+				  
+				  
+				  
+				  
+                  <section data-section-id="37939000000002260" id="ember281" class="bs-section default community-section-sponsors primary-button ember-view">
+                     <div class="background-layer " style="">
+                        
+                     </div>
+                     <article role="presentation" id="ember282" class="foreground-layer bs-container ember-view">
+                        <div data-element-id="37939000000002135" id="ember283" class="ember-view">
+                           <h3 text-id="37939000000002137" id="ember284" class="section-title ember-view">
+                              		
+                              <p><span style="color: rgb(0, 92, 191);">Sponsors</span></p>
+                           </h3>
+                           
+                        </div>
+                        <div data-element-id="37939000000002138" id="ember285" class="ember-view">
+                           <h5 text-id="37939000000002140" id="ember286" class="section-sub-title ember-view">
+                              		
+                           </h5>
+                           
+                        </div>
+                        <div data-element-id="37939000000002141" id="ember287" class="ember-view">
+                           	
+                           <div id="ember288" class="ember-view">
+                              <div id="ember290" class="ember-view">
+                                 <div id="ember291" class="ember-view">
+                                    <div class="ap-container secondary sponsor">
+                                       <div id="ember292" class="ap-empty-section ember-view">
+                                          <div class="empty-section ">
+                                             <div>
+                                                <i class="sponsor-icon theme-icon" aria-hidden="true"></i>
+                                             </div>
+                                             <h5>
+                                                
+                                             </h5>
+                                             <p>
+                                                
+                                             </p>
+                                             <div class="empty-section-button">
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                		
+                                             </div>
+                                             <div class="meta" data-ember-action="" data-ember-action-293="293">
+                                                		
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div data-element-id="37939000000002142" id="ember294" class="ember-view">
+                           	
+                           <div id="ember295" class="ember-view">
+                             <!-- <bs-widget button-group-id="37939000000002143" style="" id="ember297" class="bs-btn-wgt default ember-view">
+                                 <div button-id="37939000000002144" id="ember298" class="child-btns customButton ember-view"><a data-a11y="focus link" style="" href="#/sponsors" id="ember299" class="bs-button primary large st-fill rounded btn-widget ember-view">					View Sponsors
+                                    </a>
+                                 </div>
+                                 <div button-id="37939000000002147" id="ember300" class="child-btns becomeASponsorButton ember-view">
+                                    <button data-a11y="focus link" data-tracker="sponsor_request" style="" id="ember301" class="st-fill rounded btn-widget large primary bs-button ember-view">
+                                       
+                                       Become a Sponsor
+                                    </button>
+                                 </div>
+                              </bs-widget>--->
+                           </div>
+                        </div>
+                     </article>
+                  </section>
+                  <section data-section-id="37939000000002262" id="ember302" class="bs-section default community-section-getInTouch primary-button alternative-background ember-view">
+                     <div class="background-layer " style="">
+                        
+                     </div>
+                     <article role="presentation" id="ember303" class="foreground-layer bs-container ember-view">
+                        <div data-element-id="37939000000002155" id="ember304" class="ember-view">
+                           <h3 text-id="37939000000002157" id="ember305" class="section-title ember-view">
+                              		
+                              <p><span style="color: rgb(0, 92, 191);">Get in touch</span></p>
+                           </h3>
+                           
+                        </div>
+                        <div data-element-id="37939000000002158" id="ember306" class="ember-view">
+                           <h5 text-id="37939000000002160" id="ember307" class="section-sub-title ember-view">
+                              		Got questions? Write to us.
+                           </h5>
+                           
+                        </div>
+                        <div data-element-id="37939000000002161" id="ember308" class="ember-view">
+                           	
+                           <div id="ember309" class="ember-view">
+                              <div form-id="37939000000002070" id="ember311" class="ember-view">
+                                 <div></div>
+                                 		
+                                 <div class="row">
+                                    <div class="col-sm col-md-8 col-lg-6 centered">
+                                       <div class="bs-frame">
+                                          <div id="ember312" class="uls-grid bs-form small ember-view ticket-list">
+                                             <div class="col-12">
+                                                <div class="form-head">
+                                                   <div class="left-item">
+                                                      <h5 class="head">Get in touch</h5>
+                                                      <div class="sub-head">Got questions? Write to us.</div>
+                                                   </div>
+                                                   <div class="right-item">
+                                                      		
+                                                   </div>
+                                                </div>
+                                             </div>
+                                            
+                                           <iframe onload="javascript:parent.scrollTo(0,0);" height="780" allowTransparency="true" scrolling="no" frameborder="0" sandbox="allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-presentation allow-same-origin allow-scripts allow-top-navigation allow-top-navigation-by-user-activation" src="https://webforms.sgate.net/embed.php?id=76009" title="COLLNET Meeting 2025"><a href="https://webforms.sgate.net/view.php?id=76009" title="COLLNET Meeting 2025">COLLNET Meeting 2025</a></iframe>
+                                           
+                                             
+                                          </div>
+                                       </div>
+                                     
+                                    </div>
+                                 </div>
+                                 
+                              </div>
+                           </div>
+                        </div>
+                     </article>
+                  </section>
+                  		
+                  <section tabindex="0" role="presentation" aria-label="footer" data-section-id="37939000000014060" id="ember331" class="bs-section community-section-footer default ember-view">
+                     <div class="background-layer"></div>
+                     <article role="presentation" id="ember332" class="foreground-layer bs-container ember-view">
+                        <div class="element-settings ">
+                           <div>
+                              		
+                              <div class="bs-footer">
+                                 <div class="ft-top">
+                                    <div class="left">
+                                       <div data-element-id="37939000000014075" id="ember333" class="ember-view">
+                                          	
+                                          <div id="ember334" class="ember-view">
+                                             <div id="ember336" class="hidden ember-view">
+                                                <div class="bs-social-links default">
+                                                   <div class="link-items">
+                                                      	
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="mid">
+                                       <div data-element-id="37939000000014080" id="ember337" class="ember-view">
+                                          	
+                                          <div id="ember338" class="ember-view">
+                                             <div id="ember340" class="ember-view">
+                                                
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div data-element-id="37939000000014077" id="ember341" class="ember-view">
+                                          	
+                                          <div id="ember342" class="ember-view">
+                                             <div id="ember344" class="ember-view">Copyright 2025 sGate Tech Solutions Pvt. Ltd.</div>
+                                          </div>
+                                       </div>
+                                     
+                                    </div>
+                                  
+                                 </div>
+                                 		
+                              </div>
+                           </div>
+                        </div>
+                     </article>
+                  </section>
+               </div>
+            </main>
+            <div>
+               
+            </div>
+            
+         </div>
+      </div>
+      <script>
+         // Set target: Sep 19, 2025 at 08:00:00 local time
+         const targetDate = new Date(2025, 8, 19, 8, 0, 0); // Month is 0-indexed
+   
+         function updateCountdown() {
+           const now = new Date();
+           const distance = targetDate - now;
+   
+           if (distance <= 0) {
+             document.getElementById("countdown").innerHTML = "🎉 It's time!";
+             clearInterval(countdownInterval);
+             return;
+           }
+   
+           const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+           const hours = Math.floor((distance / (1000 * 60 * 60)) % 24);
+           const minutes = Math.floor((distance / (1000 * 60)) % 60);
+           const seconds = Math.floor((distance / 1000) % 60);
+   
+           document.getElementById("days").textContent = String(days).padStart(2, '0');
+           document.getElementById("hours").textContent = String(hours).padStart(2, '0');
+           document.getElementById("minutes").textContent = String(minutes).padStart(2, '0');
+           document.getElementById("seconds").textContent = String(seconds).padStart(2, '0');
+         }
+   
+         const countdownInterval = setInterval(updateCountdown, 1000);
+         updateCountdown(); // Run immediately once
+       </script>
+   </body>
+</html>
