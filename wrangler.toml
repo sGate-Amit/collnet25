@@ -1,0 +1,5 @@
+name = "collnet25.mailus.workers.dev"
+main = "./src/index.astro" # Or whatever your entry file is
+compatibility_date = "2025-04-01" # Or your actual compatibility date# ... other configurations ...[[routes]]
+pattern = "collnet2025.slp.org.in/*" # Replace with your actual domain
+zone_id = "2fcd97e475482b4f77353d70245626fb" # Replace with your Cloudflare Zone ID
